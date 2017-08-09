@@ -1,0 +1,171 @@
+
+.app-login {
+  background: #ffffff;
+  padding: 0 !important; }
+  .app-login .app-body {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex; }
+    .app-login .app-body .app-block {
+      transition: all 0.2s ease;
+      background-color: #FFF;
+      border-radius: 2px;
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .app-login .app-body .app-block .app-right-section {
+        background-color: #292B2C;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        height: 100%;
+        position: relative;
+        padding: 4rem 6rem; }
+        .app-login .app-body .app-block .app-right-section .app-brand {
+          font-size: 1.5em;
+          font-weight: 200;
+          color: #FFF;
+          padding-bottom: 4rem;
+          margin-bottom: 4rem;
+          border-bottom: 1px solid rgba(15, 121, 51, 0.25); }
+          .app-login .app-body .app-block .app-right-section .app-brand .highlight {
+            color: #7A0C00;
+            background-color: white;
+            border-radius: 2px;
+            padding: 2px 8px;
+            font-weight: 200; }
+        .app-login .app-body .app-block .app-right-section .app-info ul.list {
+          list-style: none;
+          padding: 0;
+          margin: 0; }
+          .app-login .app-body .app-block .app-right-section .app-info ul.list li {
+            margin-bottom: 2rem;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: row;
+                flex-direction: row;
+            -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+            -ms-flex-align: center;
+                align-items: center;
+            -ms-flex-pack: start;
+                justify-content: flex-start; }
+            .app-login .app-body .app-block .app-right-section .app-info ul.list li .icon {
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+              -ms-flex-wrap: nowrap;
+                  flex-wrap: nowrap;
+              -ms-flex-align: center;
+                  align-items: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+              display: block;
+              margin: 0 auto;
+              background-color: #FFF;
+              color: #7A0C00;
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+              transition: all 0.2s ease; }
+              .app-login .app-body .app-block .app-right-section .app-info ul.list li .icon i.fa, .app-login .app-body .app-block .app-right-section .app-info ul.list li .icon i.ion {
+                width: 100%;
+                height: 100%;
+                font-size: 2em;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+                -ms-flex-wrap: nowrap;
+                    flex-wrap: nowrap;
+                -ms-flex-align: center;
+                    align-items: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+                transition: all 0.2s ease; }
+            .app-login .app-body .app-block .app-right-section .app-info ul.list li .title {
+              -ms-flex: 1;
+                  flex: 1;
+              font-weight: 300;
+              padding: 0 1rem;
+              font-size: 0.9em;
+              color: #FFF; }
+      .app-login .app-body .app-block .app-form {
+        padding: 4rem;
+        position: relative;
+        -ms-flex: 1;
+            flex: 1; }
+        .app-login .app-body .app-block .app-form .form-header {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: row;
+              flex-direction: row;
+          -ms-flex-wrap: nowrap;
+              flex-wrap: nowrap;
+          -ms-flex-align: center;
+              align-items: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+          font-size: 2em;
+          font-weight: 200;
+          color: #444;
+          margin-bottom: 4rem; }
+          .app-login .app-body .app-block .app-form .form-header .highlight {
+            font-weight: 400;
+            color: #191B1F;
+            margin-right: 2px; }
+        .app-login .app-body .app-block .app-form .form-suggestion {
+          margin-bottom: 15px; }
+        .app-login .app-body .app-block .app-form form {
+          min-width: 280px; }
+          .app-login .app-body .app-block .app-form form .btn-submit {
+            width: 100%; }
+        .app-login .app-body .app-block .app-form .form-line {
+          width: 100%;
+          position: relative;
+          text-align: center;
+          font-size: 0.9em;
+          z-index: 2;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          color: #8d9293; }
+          .app-login .app-body .app-block .app-form .form-line .title {
+            background-color: #FFF;
+            position: relative;
+            z-index: 2;
+            width: 50px;
+            margin: 0 auto; }
+          .app-login .app-body .app-block .app-form .form-line:after {
+            content: '';
+            position: absolute;
+            width: 50%;
+            bottom: 50%;
+            left: 50%;
+            transform: translate(-50%, 0);
+            z-index: 1;
+            border-bottom: 1px solid #dfe6e8; }
+        .app-login .app-body .app-block .app-form .form-footer {
+          text-align: center; }
+          .app-login .app-body .app-block .app-form .form-footer .btn {
+            margin: 0 auto; }
+  .app-login.__loading .app-block {
+    filter: url("/assets/images/blur.svg#blur");
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    transform: scale(0.8); }
+  .app-login.__loading .loader-container {
+    color: #FFF;
+    font-size: 2em;
+    font-weight: 200; }
+    .app-login.__loading .loader-container .sk-folding-cube .sk-cube:before {
+      background-color: #FFF; }
+  .app-login.__loading:after {
+    background-color: rgba(41, 199, 95, 0.75); }
