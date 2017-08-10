@@ -12,31 +12,36 @@
                         <table class="table table-bordered" width="100%" id="dataTable" cellspacing="0">
                             <thead>
                                 <tr>
-                                    <th>Nama</th>
-                                    <th>Posisi</th>
-                                    <th>Jam Masuk</th>
-                                    <th>Jam Pulang</th>
-                                    <th>keterangan</th>
-                                    
+                                    <th>No</th>
+                                    <th>Serial Number</th>
+                                    <th>Scan Date</th>
+                                    <th>PIN</th>
+                                    <th>Verify Mode</th>
+                                    <th>IO Mode</th>
+                                    <th>Work Code</th>
+
                                 </tr>
                             </thead>
                             <tfoot>
                                 <tr>
-                                    <th>Nama</th>
-                                    <th>Posisi</th>
-                                    <th>Jam Masuk</th>
-                                    <th>Jam Pulang</th>
-                                    <th>keterangan</th>
+                                    <th>No</th>
+                                    <th>Serial Number</th>
+                                    <th>Scan Date</th>
+                                    <th>PIN</th>
+                                    <th>Verify Mode</th>
+                                    <th>IO Mode</th>
+                                    <th>Work Code</th>
                                 </tr>
                             </tfoot>
                             <tbody>
                                 <tr>
-                                    <td>Tiger Nixon</td>
-                                    <td>System Architect</td>
-                                    <td>Edinburgh</td>
-                                    <td>61</td>
-                                    <td>2011/04/25</td>
-                                    
+                                    <th>1</th>
+                                    <th>xxx-xxx-xx-xx-x</th>
+                                    <th>02/08/2017 09:00</th>
+                                    <th>********</th>
+                                    <th>36468</th>
+                                    <th>0</th>
+                                    <th>005</th>
                                 </tr>
                             </tbody>
                         </table>
@@ -47,3 +52,23 @@
                 </div>
             </div>
             <!-- akhir table pegwai -->
+
+            <!-- tombol -->
+            <div class="row">
+                <div class="col-xl-3 col-sm-6 mb-3">
+                <button type="button" class="btn btn-outline-primary btn-sm btn-block">Get All Scanlog</button>
+                </div>
+
+                <div class="col-xl-3 col-sm-6 mb-3">
+                <button type="button" class="btn btn-outline-warning btn-sm btn-block">Get New ScanLog</button>
+                </div>
+
+                <div class="col-xl-3 col-sm-6 mb-3">
+                <button type="button" class="btn btn-outline-danger btn-sm btn-block">Delete Scanlog</button>
+                </div>
+
+                <div class="col-xl-3 col-sm-6 mb-3">
+                <button type="button" class="btn btn-outline-danger btn-sm btn-block">Clear Scanlog In Database</button>
+                </div>
+            </div>
+            <!-- /tombol-->
